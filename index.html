@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="fr" />
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercice 5</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+    <script src="assets/JS/script.js"></script>
+  </head>
+  <body ng-app='' ng-controller="">
+    <p ng-hide="showme" ng-show="showme">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <input ng-click="showme = true" type="button" name="show" value="Afficher" />
+    <input ng-click="showme = false" type="button" name="hide" value="Cacher" />
+  </body>
+</html>
